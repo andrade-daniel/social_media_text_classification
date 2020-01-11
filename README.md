@@ -1,5 +1,7 @@
 # A text classification problem
 
+EDIT: Adding a more simple (and more efficient) third alternative method using a Kaggle kernel from fastai's Jeremy Howard.
+
 Given a (non public) dataset with real social media comments from the page of an online store, the goal was to create a model to detect harmful comments, while applying some NLP techniques (using nltk and Gensim packages; emoji too 😛💥).
 
 The data had the comments' text, detected language of the comment, its translation to English, the indication of the comment being harmful or not and the type of harmful comment.
