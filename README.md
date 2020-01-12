@@ -1,6 +1,6 @@
 # A text classification problem
 
-EDIT: Adding a more simple (and more efficient) third alternative method using a Kaggle kernel from fastai's Jeremy Howard.
+EDIT: Adding a more simple (and more efficient) third alternative method: NBSVM using a Kaggle kernel from fastai's Jeremy Howard.
 
 Given a (non public) dataset with real social media comments from the page of an online store, the goal was to create a model to detect harmful comments, while applying some NLP techniques (using nltk and Gensim packages; emoji too 😛💥).
 
