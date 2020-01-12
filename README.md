@@ -1,6 +1,10 @@
 # A text classification problem
 
-EDIT: Adding a more simple (and more efficient) third alternative method: NBSVM using a Kaggle kernel from fastai's Jeremy Howard.
+[EDIT:
+
+- Adding a more simple (and more efficient) third alternative method: NBSVM using a Kaggle kernel from fastai's Jeremy Howard.
+
+- Adding a BERT method, using the ktrain package. Got the best results, but keep in mind its computational cost (ran in Colab). Also, I didn't apply any text preprocessing techniques used in the other methods, so there's margin for improvement (besides the model training itself, that served mostly for experimenting purposes).]
 
 Given a (non public) dataset with real social media comments from the page of an online store, the goal was to create a model to detect harmful comments, while applying some NLP techniques (using nltk and Gensim packages; emoji too 😛💥).
 
